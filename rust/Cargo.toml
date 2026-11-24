@@ -1,7 +1,6 @@
-[package]
-name = "tapiz"
-version = "0.1.0"
-edition = "2024"
+[workspace]
 
-[dependencies]
-gba = "0.15.0"
+members = [
+    "pikov-color",
+    "pikov-gba",
+]
