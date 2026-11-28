@@ -1,6 +1,9 @@
 [workspace]
-
+resolver = "3"
 members = [
     "pikov-color",
     "pikov-gba",
+]
+default-members = [
+    "pikov-color",
 ]
