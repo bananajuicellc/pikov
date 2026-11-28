@@ -1,3 +1,11 @@
+
+enum Color {
+  Grayscale,
+  Red,
+  Green,
+  Blue,
+}
+  
 struct Calibration {
   target: FixedU8<U8>,
   color: Color,

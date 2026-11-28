@@ -1,13 +1,6 @@
 use fixed::FixedU8;
 use fixed::types::extra::U8;
 
-enum Color {
-  Grayscale,
-  Red,
-  Green,
-  Blue,
-}
-
 const INVERSE_OETF_LINEAR_THRESHOLD: FixedU8<U8> = match FixedU8::from_ascii(b"0.0031308") {
   Ok(val) => val,
   Err(_) => panic!("hardcoded threshold should be valid"),
